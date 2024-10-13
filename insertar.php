@@ -3,10 +3,9 @@
     $username = "bor";
     $password = "bor"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
     $dbname = "prueba"; 
-    echo "hola";
-    // Crear conexión con la base de datos
-    /*$conn = new mysqli($servername, $username, $password, $dbname);
 
+    // Crear conexión con la base de datos
+    $conn = new mysqli($servername, $username, $password, $dbname);
     // Verificar la conexión
     if ($conn->connect_error) {
         echo "Error";
@@ -26,5 +25,5 @@
     }
 
     // Cerrar la conexión a la base de datos
-    $conn->close();*/
+    $conn->close();
 ?>
