@@ -19,7 +19,7 @@
         <label for="edad">Edad:</label>
         <input type="number" name="edad" id="edad" required>
         <br>
-        <input type="sumbit" value="Enviar">
+        <input type="submit" value="Enviar">
     </form>
     <script src="js/reloj.js"></script>
 </body>
