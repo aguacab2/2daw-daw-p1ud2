@@ -21,6 +21,6 @@
         <br>
         <input type="sumbit" value="Enviar">
     </form>
-    <script src="js/relojs.js"></script>
+    <script src="js/reloj.js"></script>
 </body>
 </html>
