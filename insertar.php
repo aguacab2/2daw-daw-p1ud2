@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost"; 
-    $username = "bor";
-    $password = "bor"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
-    $dbname = "prueba"; 
+    $servername = "ant"; 
+    $username = "ant";
+    $password = "ant"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
+    $dbname = "pruebas"; 
 
     // Crear conexión con la base de datos
     $conn = new mysqli($servername, $username, $password, $dbname);
