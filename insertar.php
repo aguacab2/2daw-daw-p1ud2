@@ -1,7 +1,7 @@
 <?php
-    $servername = "ant"; 
-    $username = "ant";
-    $password = "ant"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
+    $servername = "localhost"; 
+    $username = "antonio";
+    $password = "antonio"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
     $dbname = "pruebas"; 
 
     // Crear conexión con la base de datos
